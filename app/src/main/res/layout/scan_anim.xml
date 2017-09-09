@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_centerInParent="true">
+
+    <View
+        android:id="@+id/scan_line"
+        android:layout_width="5dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/btn_enable" />
+
+    <android.support.percent.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        >
+
+        <com.example.administrator.myapplication.viwe.CircleLayout
+            android:id="@+id/circle_1"
+            android:layout_width="@dimen/scan_animation_circle"
+            android:layout_height="@dimen/scan_animation_circle"
+            android:layout_marginTop="10dp"
+            android:visibility="invisible"
+            app:layout_marginLeftPercent="8%"
+            app:layout_marginStartPercent="8%"
+            app:bgColor="@color/btn_enable" />
+
+        <com.example.administrator.myapplication.viwe.CircleLayout
+            android:id="@+id/circle_2"
+            android:layout_width="@dimen/scan_animation_circle"
+            android:layout_height="@dimen/scan_animation_circle"
+            android:layout_below="@+id/circle_1"
+            android:layout_marginTop="20dp"
+            app:layout_marginLeftPercent="16%"
+            app:layout_marginStartPercent="16%"
+            android:visibility="invisible"
+            app:bgColor="@color/btn_enable" />
+
+        <com.example.administrator.myapplication.viwe.CircleLayout
+            android:id="@+id/circle_3"
+            android:layout_width="@dimen/scan_animation_circle"
+            android:layout_height="@dimen/scan_animation_circle"
+            app:layout_marginLeftPercent="15%"
+            app:layout_marginStartPercent="15%"
+            android:layout_marginTop="30dp"
+            android:layout_toEndOf="@+id/circle_1"
+            android:layout_toRightOf="@+id/circle_1"
+            android:visibility="invisible"
+            app:bgColor="@color/btn_enable" />
+
+        <com.example.administrator.myapplication.viwe.CircleLayout
+            android:id="@+id/circle_4"
+            android:layout_width="@dimen/scan_animation_circle"
+            android:layout_height="@dimen/scan_animation_circle"
+            app:layout_marginLeftPercent="8%"
+            app:layout_marginStartPercent="8%"
+            android:layout_marginTop="3dp"
+            android:layout_toEndOf="@+id/circle_3"
+            android:layout_toRightOf="@+id/circle_3"
+            android:visibility="invisible"
+            app:bgColor="@color/btn_enable" />
+
+        <com.example.administrator.myapplication.viwe.CircleLayout
+            android:id="@+id/circle_5"
+            android:layout_width="@dimen/scan_animation_circle"
+            android:layout_height="@dimen/scan_animation_circle"
+            android:layout_below="@+id/circle_4"
+            app:layout_marginLeftPercent="15%"
+            app:layout_marginStartPercent="15%"
+            android:layout_marginTop="60dp"
+            android:layout_toEndOf="@+id/circle_3"
+            android:layout_toRightOf="@+id/circle_3"
+            android:visibility="invisible"
+            app:bgColor="@color/btn_enable" />
+
+        <com.example.administrator.myapplication.viwe.CircleLayout
+            android:id="@+id/circle_6"
+            android:layout_width="@dimen/scan_animation_circle"
+            android:layout_height="@dimen/scan_animation_circle"
+            app:layout_marginLeftPercent="5%"
+            app:layout_marginStartPercent="5%"
+            android:layout_marginTop="25dp"
+            android:layout_toEndOf="@+id/circle_5"
+            android:layout_toRightOf="@+id/circle_5"
+            android:visibility="invisible"
+            app:bgColor="@color/btn_enable" />
+
+        <com.example.administrator.myapplication.viwe.CircleLayout
+            android:id="@+id/circle_7"
+            android:layout_width="@dimen/scan_animation_circle"
+            android:layout_height="@dimen/scan_animation_circle"
+            app:layout_marginLeftPercent="8%"
+            app:layout_marginStartPercent="8%"
+            android:layout_marginTop="25dp"
+            android:layout_toEndOf="@+id/circle_6"
+            android:layout_toRightOf="@+id/circle_6"
+            android:visibility="invisible"
+            app:bgColor="@color/btn_enable" />
+
+        <com.example.administrator.myapplication.viwe.CircleLayout
+            android:id="@+id/circle_8"
+            android:layout_width="@dimen/scan_animation_circle"
+            android:layout_height="@dimen/scan_animation_circle"
+            android:layout_below="@+id/circle_7"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@+id/circle_7"
+            android:layout_toRightOf="@+id/circle_7"
+            android:visibility="invisible"
+            app:bgColor="@color/btn_enable" />
+
+        <com.example.administrator.myapplication.viwe.CircleLayout
+            android:id="@+id/circle_9"
+            android:layout_width="@dimen/scan_animation_circle"
+            android:layout_height="@dimen/scan_animation_circle"
+            app:layout_marginLeftPercent="8%"
+            app:layout_marginStartPercent="8%"
+            android:layout_marginTop="15dp"
+            android:layout_toEndOf="@+id/circle_8"
+            android:layout_toRightOf="@+id/circle_8"
+            android:visibility="invisible"
+            app:bgColor="@color/btn_enable" />
+
+        <com.example.administrator.myapplication.viwe.CircleLayout
+            android:id="@+id/circle_10"
+            android:layout_width="@dimen/scan_animation_circle"
+            android:layout_height="@dimen/scan_animation_circle"
+            android:layout_below="@+id/circle_9"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@+id/circle_9"
+            android:layout_toRightOf="@+id/circle_9"
+            android:visibility="invisible"
+            app:bgColor="@color/btn_enable" />
+
+        <com.example.administrator.myapplication.viwe.CircleLayout
+            android:id="@+id/circle_11"
+            android:layout_width="@dimen/scan_animation_circle"
+            android:layout_height="@dimen/scan_animation_circle"
+            app:layout_marginLeftPercent="8%"
+            app:layout_marginStartPercent="8%"
+            android:layout_marginTop="25dp"
+            android:layout_toEndOf="@+id/circle_10"
+            android:layout_toRightOf="@+id/circle_10"
+            android:visibility="invisible"
+            app:bgColor="@color/btn_enable" />
+
+        <com.example.administrator.myapplication.viwe.CircleLayout
+            android:id="@+id/circle_12"
+            android:layout_width="@dimen/scan_animation_circle"
+            android:layout_height="@dimen/scan_animation_circle"
+            android:layout_below="@+id/circle_11"
+            android:layout_marginTop="30dp"
+            android:layout_toEndOf="@+id/circle_11"
+            android:layout_toRightOf="@+id/circle_11"
+            android:visibility="invisible"
+            app:bgColor="@color/btn_enable" />
+
+    </android.support.percent.PercentRelativeLayout>
+
+</RelativeLayout>

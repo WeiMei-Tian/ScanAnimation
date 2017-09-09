@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--LockView 设置-->
+    <declare-styleable name="MaterialLockView">
+        <attr name="LOCK_COLOR" format="color" />
+        <attr name="WRONG_COLOR" format="color" />
+        <attr name="CORRECT_COLOR" format="color" />
+    </declare-styleable>
+    <!--LockView 设置-->
+
+    <!-- CircleLayout 设置-->
+    <declare-styleable name="CircleLayout">
+        <attr name="bgColor" format="color" />
+    </declare-styleable>
+
+</resources>
